@@ -53,7 +53,7 @@ class PagesController extends AppController {
  */
 	public function display() {
 		$path = func_get_args();
-
+		echo 1
 		$count = count($path);
 		if (!$count) {
 			$this->redirect('/');
