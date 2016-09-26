@@ -5,4 +5,4 @@ linter:
       dir: app/Controller/*.php
   phpmd:
     options:
-      rule: codesize
+      rule: cleancode,codesize,controversial,design,naming,unusedcode
