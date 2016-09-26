@@ -1,0 +1,8 @@
+linter:
+  code_sniffer:
+    options:
+      standard: CakePHP
+      dir: app/Controller/*.php
+  phpmd:
+    options:
+      rule: codesize
